@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="docs/banner.png" alt="MyCheckPoint Banner" width="1000"/>
+  <img src="docs/banner.png" alt="MyCheckPoint Banner" width="300"/>
 </p>
 
 ---
