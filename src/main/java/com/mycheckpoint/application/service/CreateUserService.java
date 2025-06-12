@@ -36,6 +36,4 @@ public class CreateUserService implements CreateUserUseCase {
 
         return new CreateUserResponse(user.getId());
     }
-
-
 }

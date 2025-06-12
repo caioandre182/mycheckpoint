@@ -48,7 +48,6 @@ public class User {
     private boolean emailVerified;
 
     protected User(){
-
     }
 
     public User(Email email, Password password, Username username, UserRole userRole,
