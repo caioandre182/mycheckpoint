@@ -1,10 +1,7 @@
 package com.mycheckpoint.ports.in;
 
-import com.mycheckpoint.application.service.dto.FindUserByIdResponse;
-import com.mycheckpoint.domain.model.User;
-
-import java.util.Optional;
+import com.mycheckpoint.application.service.dto.FindUserResponse;
 
 public interface FindUserByIdUseCase {
-    FindUserByIdResponse findById(Long id);
+    FindUserResponse findById(Long id);
 }
