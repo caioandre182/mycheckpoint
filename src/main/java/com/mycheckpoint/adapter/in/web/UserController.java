@@ -1,8 +1,7 @@
 package com.mycheckpoint.adapter.in.web;
 
-import com.mycheckpoint.application.service.FindUserByEmailService;
-import com.mycheckpoint.application.service.dto.*;
-import com.mycheckpoint.ports.in.*;
+import com.mycheckpoint.application.user.service.dto.*;
+import com.mycheckpoint.ports.in.user.*;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

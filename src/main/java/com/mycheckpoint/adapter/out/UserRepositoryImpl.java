@@ -1,8 +1,8 @@
 package com.mycheckpoint.adapter.out;
 
 
-import com.mycheckpoint.domain.model.User;
-import com.mycheckpoint.ports.out.UserRepository;
+import com.mycheckpoint.user.domain.model.User;
+import com.mycheckpoint.ports.out.user.UserRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
@@ -39,4 +39,5 @@ public class UserRepositoryImpl implements UserRepository {
     public void deleteById(Long id){
         jpaRepository.deleteById(id);
     }
+
 }
