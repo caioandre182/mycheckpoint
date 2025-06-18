@@ -1,6 +1,6 @@
 package com.mycheckpoint.adapter.out;
 
-import com.mycheckpoint.domain.model.User;
+import com.mycheckpoint.user.domain.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
