@@ -1,0 +1,19 @@
+{
+  "name": "mycheckpoint",
+  "version": "1.0.0",
+  "description": "Projeto MyCheckPoint para registrar o progresso do usuário no universo dos games",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.4.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
